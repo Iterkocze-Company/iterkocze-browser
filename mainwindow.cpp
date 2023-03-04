@@ -38,3 +38,9 @@ void MainWindow::on_lineEdit_editingFinished()
         }
 }
 
+
+void MainWindow::on_action_Exit_triggered()
+{
+    QApplication::quit();
+}
+

@@ -18,6 +18,8 @@ public:
 private slots:
     void on_lineEdit_editingFinished();
 
+    void on_action_Exit_triggered();
+
 private:
     Ui::MainWindow *ui;
 };
